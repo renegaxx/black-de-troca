@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:wght@100&family=Nunito+Sans:opsz,wght@6..12,500&family=Open+Sans:wght@300&family=Poppins:ital,wght@1,600;1,800&family=Sofia+Sans+Condensed:ital,wght@0,700;0,900;1,1;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+}
+.cima {
+    height: 30px;
+    width: auto;
+    background-color: #d3d3d3;
+}
+.texto-cima {
+    margin-top: -10;
+    display: flex;
+    margin-left: 1200px;
+    height: 20px;
+    width: 300px;
+}
+.texto-cima p {
+    margin: 10px;
+    max-height: 10px;
+}
+.nike {
+    width: 30px;
+    position: absolute;
+    left: 40px;
+}
+.x {
+    width: 9px;
+    height: 5px;
+    position: absolute;
+    left: 80px;
+    top: 10px;
+}
+.logo-jordan {
+    width: 30px;
+    position: absolute;
+    left: 100px;
+    top: 5px;
+}
+.logo-nike {
+    width: 120px;
+    margin-left: 90px;
+    height: 80px;
+    margin-top: 10px;
+}
+#menu {
+    display: flex;
+}
+.menu-nav {
+    display: flex;
+    margin-top: 28px;
+    margin-left: 810px;
+}
+.menu-nav p {
+    margin: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    width: auto;
+    font-size: 15px;
+    
+}
+.linha {
+    height: 40px;
+    width: 0.1px;
+    background-color: grey;
+}
+.aproveite {
+    position: absolute;
+    left: 1260px;
+    top: 148px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.banner {
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 10%;
+    background: linear-gradient(30deg, white 16.62%, #e1e1e1 85.61%)
+}
+
+.texto-promocao {
+    margin-left: 20px;
+}
+.texto-promocao h3 {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 90px;
+}
+.texto-promocao h1 {
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 40px;
+}
+.texto-promocao1 p {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+#botao {
+    background-color: black;
+    border: none;
+    width: 130px;
+    height: 20px;
+    color: white;
+    border-radius: 20px;
+}
+
+.img-promocao img {
+    width: 160px;
+    height: 160px;
+}
+.jordan-baixo img {
+    width: 160px;
+    height: 160px;
+}
+.contagem {
+    margin-top: 20px;
+    text-align: center;
+}
+.contagem-regressiva {
+    margin: 5% 10%;
+    text-align: center;
+}
+
+.contagem-regressiva h1 {
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.contagem-regressiva p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    padding-bottom: 15px;
+}
+
+#progress-container {
+    position: relative;
+    width: 100%;
+    background-color: #d3d3d3;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#timer {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#message {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
